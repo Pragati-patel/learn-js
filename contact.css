@@ -1,7 +1,7 @@
 /* For header section  */
 * {
   margin: 0;
-  font-family: Arial;
+  font-family: 'Poppins', sans-serif;
 }
 * p {
   font-size: 16px;
@@ -18,6 +18,9 @@ h3 {
 }
 .first-sec {
   background: linear-gradient(1deg, #e7e4e4, #f71c1c00);
+  padding-bottom: 10%;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 1%;
 }
 .header {
   display: flex;
@@ -77,15 +80,16 @@ h3 {
   color: #061757eb;
   padding-top: 10px;
 }
-.con-hero-2{
-    margin-top: 20px;
+.con-hero-2 {
+  margin-top: 20px;
 }
 form {
   display: flex;
   flex-direction: column;
 }
 form input,
-button, textarea {
+button,
+textarea {
   width: 55%;
   margin: 14px;
   padding: 15px;
@@ -99,9 +103,82 @@ form button {
   background-color: #192863;
   color: white;
 }
-form button:hover{
-    border-color: #192863;
-    background-color: white;
-    color: black;
-    cursor: pointer;
+form button:hover {
+  border-color: #192863;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.main-info-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
+}
+.info-box {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  padding-top: 30px;
+  width: 60%;
+  /* height: 36%; */
+  margin-top: -7%;
+  margin-bottom: 10%;
+  text-align: center;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.info {
+  display: flex;
+  padding: 10px;
+}
+.info img {
+  width: 20px;
+}
+.circle-1 {
+  position: relative;
+  contain: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  right: -95%;
+  bottom: -9px;
+  background-image: linear-gradient(32deg, #fd6f09, #ffb57d);
+  margin-bottom: -12px;
+
+}
+.circle-2 {
+  position: relative;
+  contain: "";
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-image: linear-gradient(46deg, #1a2964, #3373b5);
+  right: -99%;
+  bottom: 40px;
+  margin-bottom: -12px;
+
+}
+.circle-3 {
+  position: relative;
+  contain: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-image: linear-gradient(46deg, #5270e5, #020526);
+  right: -101%;
+  bottom: 23px;
+  margin-bottom: -12px;
+}
+
+.container {
+  display: flex;
+  border: 2px solid black;
+  padding: 30px;
 }
